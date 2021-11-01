@@ -1,0 +1,54 @@
+@import "variables";
+
+header{ 
+    nav{
+        background-color: $marron;
+        width: 95%;
+        margin:1.25rem auto;
+        max-width: 62.5rem;
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    a{
+                        color: $marroncla;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        background-color: $marroncla;
+                        color: $marron;
+                    }
+
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    header{ 
+        nav{
+            background-color: $marron;
+            width: 95%;
+            margin:1.25rem auto;
+            max-width: 62.5rem;
+            .collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            color: $marroncla;
+                            text-decoration: none;
+                            padding: 1rem;
+                        }
+                        a:hover{
+                            background-color: $marroncla;
+                            color: $marron;
+                            transition: all 1s ease;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import "variables";
+
+footer{
+    .texto_footer{
+        text-align: left;
+        font-size: 0.8125rem;
+        color: $claro;
+        background-color: $marron;
+        margin-top: 1%;
+    }
+}
