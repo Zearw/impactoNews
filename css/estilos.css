@@ -5,8 +5,10 @@
   box-sizing: border-box;
 }
 
+/* cambie el marron D4A373 por el actual*/
+/* cambie el marron D4A373 por el actual*/
 header nav {
-  background-color: #D4A373;
+  background-color: #bb7a3a;
   width: 95%;
   margin: 1.25rem auto;
   max-width: 62.5rem;
@@ -19,12 +21,12 @@ header nav .collapse .navbar-nav .nav-item a {
 
 header nav .collapse .navbar-nav .nav-item a:hover {
   background-color: #FAEDCD;
-  color: #D4A373;
+  color: #bb7a3a;
 }
 
 @media screen and (min-width: 768px) {
   header nav {
-    background-color: #D4A373;
+    background-color: #bb7a3a;
     width: 95%;
     margin: 1.25rem auto;
     max-width: 62.5rem;
@@ -36,20 +38,21 @@ header nav .collapse .navbar-nav .nav-item a:hover {
   }
   header nav .collapse .navbar-nav .nav-item a:hover {
     background-color: #FAEDCD;
-    color: #D4A373;
+    color: #bb7a3a;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
   }
 }
 
+/* cambie el marron D4A373 por el actual*/
 body {
   background-color: #FEFAE0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-  margin-top: 0.625rem;
-  color: #D4A373;
+  margin-top: 0.5rem;
+  color: #bb7a3a;
   text-align: center;
 }
 
@@ -58,12 +61,12 @@ p {
   max-width: 62.5rem;
   text-align: center;
   margin: 10px auto;
-  color: #D4A373;
+  color: #bb7a3a;
 }
 
 h2, h3 {
-  color: #D4A373;
-  margin: 0.625rem;
+  color: #bb7a3a;
+  margin: 0.5rem;
   text-align: center;
 }
 
@@ -73,8 +76,8 @@ h2, h3 {
 
 .subTitulosGacha {
   text-align: center;
-  background-color: #AABA78;
-  color: #E9EDC9;
+  background-color: #D4A373;
+  color: #FEFAE0;
   width: 95%;
   margin: 2% auto;
 }
@@ -82,8 +85,8 @@ h2, h3 {
 @media screen and (min-width: 1024px) {
   .subTitulosGacha {
     text-align: center;
-    background-color: #AABA78;
-    color: #E9EDC9;
+    background-color: #D4A373;
+    color: #FEFAE0;
     width: 80%;
     margin: 2% auto;
   }
@@ -93,8 +96,8 @@ h2, h3 {
   text-align: justify;
   margin: 2% auto;
   width: 95%;
-  background-color: #E9EDC9;
-  color: #D4A373;
+  background-color: #deb68a;
+  color: #FAEDCD;
 }
 
 @media screen and (min-width: 1024px) {
@@ -102,8 +105,8 @@ h2, h3 {
     text-align: justify;
     margin: 2% auto;
     width: 80%;
-    background-color: #E9EDC9;
-    color: #D4A373;
+    background-color: #deb68a;
+    color: #FAEDCD;
   }
 }
 
@@ -192,12 +195,12 @@ h2, h3 {
 }
 
 #bg_marron {
-  background-color: #D4A373;
+  background-color: #bb7a3a;
 }
 
 .texto div h2 {
-  color: #D4A373;
-  margin: 0.625rem;
+  color: #bb7a3a;
+  margin: 0.5rem;
   text-align: center;
 }
 
@@ -206,7 +209,7 @@ h2, h3 {
   max-width: 62.5rem;
   text-align: center;
   margin: 10px auto;
-  color: #D4A373;
+  color: #bb7a3a;
 }
 
 .galleryContainer {
@@ -286,7 +289,39 @@ h2, h3 {
   background-image: url(../img/iconosCharacters/fondoRareza/Fondo_de_rareza_4.png);
 }
 
+.nuevos_personajes {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 10px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .nuevos_personajes {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (690px)[2];
+        grid-template-columns: repeat(2, 690px);
+    -ms-grid-rows: 320px;
+        grid-template-rows: 320px;
+    gap: 10px;
+    overflow: hidden;
+  }
+}
+
 .itemboxes-container {
+  width: 80%;
+  margin: 2% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,7 +336,7 @@ h2, h3 {
 }
 
 .itembox {
-  background-color: #D4A373;
+  background-color: #bb7a3a;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -335,6 +370,8 @@ h2, h3 {
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 .itembox-name {
@@ -351,11 +388,12 @@ h2, h3 {
   left: 3px;
 }
 
+/* cambie el marron D4A373 por el actual*/
 footer .texto_footer {
   text-align: left;
   font-size: 0.8125rem;
   color: #FEFAE0;
-  background-color: #D4A373;
+  background-color: #bb7a3a;
   margin-top: 1%;
 }
 /*# sourceMappingURL=estilos.css.map */

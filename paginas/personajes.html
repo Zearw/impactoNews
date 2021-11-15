@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
 
 
+    <!--Animacion-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!--Bootstrap-->
 
@@ -68,7 +71,7 @@
                     
                     <div class="itemboxes-container">
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Pyro.png" alt="Elemento Pyro">
                             </div>
                             <div class="itembox-name">
@@ -77,7 +80,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Hydro.png" alt="Elemento Hydro">
                             </div>
                             <div class="itembox-name">
@@ -86,7 +89,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Anemo.png" alt="Elemento Anemo">
                             </div>
                             <div class="itembox-name">
@@ -95,7 +98,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Electro.png" alt="Elemento Electro">
                             </div>
                             <div class="itembox-name">
@@ -104,7 +107,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Dendro.png" alt="Elemento Dendro">
                             </div>
                             <div class="itembox-name">
@@ -113,7 +116,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Cryo.png" alt="Elemento Cryo">
                             </div>
                             <div class="itembox-name">
@@ -122,7 +125,7 @@
                             <div class="itembox-space"></div>
                         </div>
                         <div class="itembox ">
-                            <div class="itembox-image">
+                            <div class="itembox-image" data-aos="zoom-in">
                                 <img src="../img/iconosCharacters/fondoRareza/Geo.png" alt="Elemento Geo">
                             </div>
                             <div class="itembox-name">
@@ -136,15 +139,15 @@
                     </p>
                 </div>
                 <div><h3>Nuevos personajes</h3></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12 col-sm4">
-                            <iframe width="500" height="250" src="https://www.youtube.com/embed/fVf0RB3nvOU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                            <iframe width="500" height="250" src="https://www.youtube.com/embed/mvrW4aKwAXw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        </div>
+                <div class="nuevos_personajes">
+                    <a href="https://youtu.be/7qc3tbZDy7I" target="_blank">
+                        <img src="../img/fondos/kujou.jpg" alt="Sara">
+                    </a>
+                    <a href="https://youtu.be/oBrEFOdSfy8" target="_blank">
+                        <img src="../img/fondos/shogun.jpg" alt="Shogun">
+                    </a>
                 </div>
+                
             </article>
 
             <article class="container_pj">
@@ -661,4 +664,12 @@
     </footer>
 
 </body>
+<!--Animaciones entrada imagenes-->
+<script>
+    AOS.init();
+</script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </html>
