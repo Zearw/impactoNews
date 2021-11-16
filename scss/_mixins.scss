@@ -2,7 +2,7 @@
     width: 95%;
     max-width: 62.5rem;
     text-align: center;
-    margin: 10px auto;    
+    margin: 0.625rem auto;    
     color: $marron;
 }
 @mixin titulos_principales {
@@ -19,7 +19,7 @@
 
 @mixin textoGacha ($width) {
     text-align: justify;
-    margin: 2% auto;
+    margin: 0 auto;
     width: $width;
     background-color: $verdecla;
     color: $marroncla;
@@ -31,7 +31,7 @@
     background-color: $verde;
     color: $claro;
     width: $width;
-    margin: 2% auto;
+    margin: 1% auto;
 }
 
 @mixin backimg ($backimg_City){
@@ -70,12 +70,14 @@
 
 }
     
-@mixin new_pj ($grid,$rows){
-    justify-content: center;
-    display: grid;
-    grid-template-columns: $grid;
-    grid-template-rows: $rows;
-    gap: 10px;
-    overflow: hidden;
-}
     
+@mixin container {
+    padding: 1.875rem 1.875rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
