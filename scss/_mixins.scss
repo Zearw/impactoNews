@@ -21,14 +21,14 @@
     text-align: justify;
     margin: 0 auto;
     width: $width;
-    background-color: $verdecla;
+    background-color: $naranjagrisaceo;
     color: $marroncla;
     
 }
 
 @mixin subTitulo ($width) {
     text-align: center;
-    background-color: $verde;
+    background-color: $naranjasuave;
     color: $claro;
     width: $width;
     margin: 1% auto;
@@ -70,10 +70,9 @@
 
 }
     
-    
-@mixin container {
-    padding: 1.875rem 1.875rem;
-    width: 80%;
+@mixin container ($width){
+    padding: 1rem 1rem;
+    width: $width;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
