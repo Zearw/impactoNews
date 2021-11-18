@@ -395,6 +395,11 @@ h2, h3 {
 }
 
 /*Formulario de contacto*/
+.consultas_img {
+  width: 98%;
+  text-align: center;
+}
+
 .contacto {
   color: #bb7a3a;
   width: 95%;
