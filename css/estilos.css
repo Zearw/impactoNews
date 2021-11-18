@@ -50,7 +50,7 @@ body {
 
 /*textos general*/
 h1 {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   color: #bb7a3a;
   text-align: center;
 }
@@ -59,13 +59,13 @@ p {
   width: 95%;
   max-width: 62.5rem;
   text-align: center;
-  margin: 0.625rem auto;
+  margin: 1rem auto;
   color: #bb7a3a;
 }
 
 h2, h3 {
   color: #bb7a3a;
-  margin: 0.5rem;
+  margin: 1rem;
   text-align: center;
 }
 
@@ -103,6 +103,10 @@ h2, h3 {
     background-color: #deb68a;
     color: #FAEDCD;
   }
+}
+
+.auxMargin {
+  margin-top: 2.6rem;
 }
 
 /*Barras de las ciudades - Index*/
@@ -423,6 +427,6 @@ footer .texto_footer {
   font-size: 0.8125rem;
   color: #FEFAE0;
   background-color: #bb7a3a;
-  margin-top: 1%;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=estilos.css.map */

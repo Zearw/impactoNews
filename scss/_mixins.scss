@@ -2,18 +2,18 @@
     width: 95%;
     max-width: 62.5rem;
     text-align: center;
-    margin: 0.625rem auto;    
+    margin: 1rem auto;    
     color: $marron;
 }
 @mixin titulos_principales {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: $marron;
     text-align: center;
 }
 
 @mixin titulos_secundarios {
     color: $marron;
-    margin: 0.5rem;
+    margin: 1rem;
     text-align: center;
 }
 
